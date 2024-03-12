@@ -1,0 +1,119 @@
+\documentclass[11pt,oneside,a4paper]{article}
+
+\setcounter{tocdepth}{3}
+
+\title{Codename: Kaiten [Draft]}
+
+\author{
+         Marco Vasapollo \\ {vasapower@ethereanslabs.com}
+}
+
+\date{March 2024}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The Kaiten project stands at the forefront of the DeFi revolution through its commitment to automation and its pioneering technical architecture and innovations. At its core, Kaiten seeks to address the critical need for automation, smart contract interaction, and effective coordination amongst token holders. Based on the EthereansOS stack and, above all, remaining open until its next release evolutions, the first beta of Kaiten was built in the end of 2021 to address these challenges using AI to interact with smart contracts through the brand new concept that we called "Semantically Oriented Storage", active treasury management with DeFi integrations, and a system for automated incentivized smart contract routines. The result of this R\&D activity will let Kaiten to bring all of this to all protocols that launch on the stack.
+\\ Please note that \textbf{Kaiten is a temporary name}
+\end{abstract}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Vision}
+With FixedInflation, EthereansOS showed how it is possible to obtain a self-sustainable economy.
+With ItemV1 and ItemV2 it was shown that NFTs are not just for art of gaming, but more in general, for different applications, like goverance or DeFi.
+So, if Web3 is branded as the Internet of Value, and Ethereum is the Worldwide Computer, then FixedInflation is the entry point of the CI/CD streaming in the DeFi world, having ItemV3 as its pipeline.
+
+\section{Goals}
+Kaiten is built on the pillars of automation and the empowerment of developers and super users. Its vision is to provide the foundational tools necessary for the DeFi ecosystem to flourish, enabling protocols and businesses to operate autonomously and efficiently. Kaiten's goal is to establish a new standard for protocol management where innovation, security, and user empowerment converge.
+
+\section{Introduction}
+The landscape of DeFi has witnessed exponential growth, offering unprecedented opportunities for financial innovation and inclusion. However, this rapid expansion has also underscored the pressing challenges of inefficiency, poor user interfaces, and the lack of robust automation mechanisms in protocol management. Kaiten emerges in response to these challenges, introducing a comprehensive suite of tools designed to automate and enable effective protocol coordination, thereby removing a key barrier to entry for traditional businesses to onboard to Ethereum. The first alpha version of Kaiten was developed back in 2021.
+
+\section{Core Components of Kaiten protocol}
+
+\subsection{Innovations in Automation Tools}
+
+Automation stands at the core of Kaiten, significantly reducing the need for manual intervention in protocol operations and enhancing overall efficiency and security.
+
+\subsubsection{Refunder}
+Kaiten will build upon the refunder smart contract structure of EthereansOS. This design leverages the incentivized execution of whitelisted components through a contract to encourage automatic execution of planned transactions by bots. This pattern decentralizes execution of transactions, leading to more robust protocols.
+
+\subsubsection{Routines}
+Routines allow the creation of transfers, swaps, and mints of any number of tokens to any number of addresses that can be executed periodically and can be triggered by the Refunder. This enables periodic payments, automated treasury management, and inflation to be executed at regular user defined intervals, reducing overhead while benefiting from elimination of centralized execution risk.
+
+\subsection{Revolution in AI-Driven Interface}
+
+AI will be an invaluable tool in simplifying interactions between humans and the blockchain. Kaiten aims to accelerate the integration of AI in the management of protocols through several fronts. This also aims to reduce centralization concerns with traditional interfaces, as the AI based interfaces can be recreated from the contract themselves without storing HTML/JS/CSS on the chain.
+
+\subsubsection{AI Text Interaction}
+Kaiten will begin leveraging AI by introducing a natural language processing (NLP) interface to facilitate interaction with the smart contracts associated with the protocol. Commands can be issued by the users, the intent will be extracted and communicated to the user, and a smart contract call will be formed to best address the intent expressed. This will become available to all protocols leveraging Kaiten for their automation and treasury management needs.
+
+\subsubsection{AI Front End}
+Kaiten will later introduce an AI-powered front-end generation tool that automates the creation of user interfaces for decentralized applications. This tool uses NLP and machine learning algorithms to translate contract functionalities and additional metadata into intuitive and user-friendly interfaces, significantly reducing development time and enhancing user experience. This will be a primary research and development effort for the protocol.
+
+ This aspect of Kaiten is a main R\&D focus, the final product of AI integration may be different than the goals outlined.
+
+\subsection{Active Treasury Management}
+
+Protocol and business treasuries are the most valuable when they are engaged to earn yield. While this has been simple for both traditional businesses in the real world and individuals onchain, DAO and protocol’s struggle with activating treasuries to earn yield effectively. Kaiten makes it possible to integrate decentralized treasuries into DeFi in new ways.
+
+\subsubsection{DeFi Manager}
+Kaiten will also build upon the DeFI manager component of EthereansOS. This tool allows protocols to interact seamlessly with various DeFi platforms for lending, borrowing, and yield farming activities. It enables protocols to maximize their treasury's growth potential by dynamically allocating assets across different DeFi strategies based on risk and return profiles.
+
+\subsubsection{Earnings Director}
+Kaiten features the ability for token holders to direct protocol earnings to different modules of the protocol through staking. This allows for token holders to have an active role in shaping the direction of the protocol even between governance votes. Rewards will be streamed to the different modules based on the staked amounts as a function of time.
+
+\subsubsection{ITEM v3 Proposals}
+Proposals for the DeFi Manager will be housed in ITEM v3 token positions. These proposals will be a custom extension of the new ITEM v3 contracts that will be developed by Ethereans Labs.
+
+Enhancing Protocol Efficiency and Autonomy: Kaiten's automation tools, AI-driven solutions, and active treasury management offer unprecedented levels of efficiency, autonomy, and flexibility in protocol management. This shift towards more autonomous and self-sustaining protocols will redefine DeFi’s operational paradigms, leading to more resilient and adaptive financial networks.
+
+\subsection{Scalability}
+
+\subsubsection{Layer 2 Solutions}
+By integrating with Layer 2 scaling solutions, Kaiten significantly reduces the load on the leading Ethereum network, facilitating faster and more cost-effective transactions. This includes voting in governance proposals on Layer 2’s through the Multi-Layer Vote technology that executes on mainnet.
+
+\subsubsection{Modular Design}
+Kaiten introduces a brand new modular architecture called "Semantically Oriented Storage", strongly oriented towards modularity and reuse, that allows for the seamless addition and integration of new features and components, aiming of optimizing spaces and costs. This design principle enhances scalability and enables continuous improvement and customization of the protocol to meet evolving user needs. The first beta prototype of this architecture was made in late 2021 and is available in our Github repo. While the first working product is the KAI Token itself (also available on Github).
+
+\section{Security}
+
+Security is paramount in the design and operation of Kaiten, given the critical importance of safeguarding funds and maintaining trust in decentralized systems. Kaiten utilizes factory contracts for all protocols launching on the stack to ensure verifiable security in the deployed smart contracts, the same that Kaiten will be using itself.
+
+\section{Token Launch}
+
+Kaiten will be using the new ICO token launch developed by Ethereans Labs. This new token contract facilitates the ICO process through sending Ethereum directly to the token contract where a proportional amount of the supply is sent back to the sender. It also limits transactions during the presale period and while the initial liquidity pool is established to limit front running until announcements are sent through official channels. This will leverage a Minimum Viable Price Oracle (MVPO) built for on the Kaiten stack.
+
+\section{Legal Disclaimers}
+
+This document and the information contained within it are provided for informational purposes only and do not constitute financial advice, investment advice, trading advice, or any other advice regarding the legality, wisdom, suitability, or profitability of the Kaiten project or its offerings. The information presented in this document is not intended to be used as the sole basis for any investment decisions, nor should it be construed as advice designed to meet the investment needs of any particular investor. The Kaiten project and its representatives do not guarantee the accuracy, completeness, or timeliness of the information contained in this document.
+
+\section{No Offer or Solicitation}
+
+The content of this document does not constitute an offer to sell or a solicitation of an offer to buy any securities or tokens, nor shall there be any sale of the Kaiten tokens or any associated securities in any jurisdiction in which such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of any such jurisdiction. Prospective investors should carefully consider the risks involved and must rely on their examination of the Kaiten project and the terms of the offering, including the merits and risks involved.
+
+\section{Risks and Uncertainties}
+
+The DeFi sector and blockchain technology are rapidly evolving and subject to significant regulatory scrutiny, market volatility, and competition. The Kaiten project, like any other initiative within this space, is subject to various risks and uncertainties, including but not limited to technological challenges, regulatory changes, market dynamics, and operational risks. Potential participants should consult with their legal, tax, financial, and other relevant advisors before engaging with the Kaiten project or making any investment decisions.
+
+
+\section{Forward-Looking Statements}
+
+This document may contain forward-looking statements that involve known and unknown risks, uncertainties, and other factors that may cause the actual results, performance, or achievements of the Kaiten project to be materially different from any future results, performance, or achievements expressed or implied by such forward-looking statements. These statements are only predictions and reflect the Kaiten project's current beliefs and expectations with respect to future events; they are based on assumptions and are subject to risks, uncertainties, and change at any time.
+
+\section{No Liability}
+
+The Kaiten project, its developers, advisors, partners, and representatives shall not be liable for any loss or damage of any kind incurred as a result of the use of this document or the reliance on any information provided herein. The information in this document is provided “as is,” with no guarantees of completeness, accuracy, timeliness, or of the results obtained from the use of this information.
+
+
+\section{Final Note}
+
+This document is not exhaustive and does not contain all the information necessary to make an investment decision regarding the Kaiten project. The creation, distribution, or use of this document does not in any way imply a recommendation or endorsement of any investment decision. Participants are solely responsible for conducting their due diligence and obtaining independent advice regarding the Kaiten project and its potential risks and rewards.
+
+By accessing or using this information, you acknowledge and agree to the terms and conditions outlined in this legal disclaimer section.
+
+\end{document}

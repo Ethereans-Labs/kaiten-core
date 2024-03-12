@@ -1,0 +1,15 @@
+{
+  "name": "@ethereans-labs/kaiten-core",
+  "version": "1.0.0",
+  "description": "The very first implementation of the \"Semantically Oriented Storage\" (SoS) architecture",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "Ethereans Labs",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
