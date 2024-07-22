@@ -1,5 +1,5 @@
 {
-  "name": "@ethereans-labs/kaiten-core",
+  "name": "@ethereans-labs/defiset-core",
   "version": "1.0.0",
   "description": "The very first implementation of the \"Semantically Oriented Storage\" (SoS) architecture",
   "directories": {
